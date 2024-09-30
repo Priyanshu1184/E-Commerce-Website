@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StyleVista</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="nav container">
+        <a href="landingpage" class="logo">StleVista</a>
+        <!-- Cart Icon -->
+        <i class="bx bxs-shopping-bags" id="cart-icon" data-quantity="0"></i>
+
+        <div class="cart">
+          <h2 class="cart-title">Your Cart</h2>
+          <div class="cart-content">
+          
+          </div>
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">Rs.0</div>
+          </div>
+          <button type="button" class="btn-buy pay-btn">Pay Now</button>
+          <i class="bx bx-x" id="close-cart"></i>
+       </div>
+      </div>
+    </header>
+    <section class="shop container">
+        <h2 class="section-title">Shop Product</h2>
+        
+        <div class="shop-content">
+            <!-- Box1 -->
+            <div class="product-box">
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13640716/2021/5/24/48e9e3bc-8fb7-4af5-97fa-46927f68fbd81621838454680JeansRoadsterMenJeansRoadsterMenTrackPantsHRXbyHrithikRoshan1.jpg"
+                alt="Shirts" class="product-img" />
+                <h2 class="product-title">U.S. Polo Assn.</h2>
+                <span class="price">Rs. 1799</span>
+                <i class="bx bxs-shopping-bags add-cart"></i>
+            </div>
+            <!-- Box2 -->
+            <div class="product-box">
+                <!-- Stripe need images that are online on local server it will not show in stripe checkout page we have to upload online -->
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13640688/2021/4/17/28b7b7ea-6a87-42df-9577-4299f5030a411618637780329-US-Polo-Assn-Men-Tshirts-7061618637779314-1.jpg" alt="Jeans" class="product-img" />
+                <h2 class="product-title">Roadster</h2>
+                <span class="price">Rs. 1649</span>
+                <i class="bx bxs-shopping-bags add-cart"></i>
+            </div>
+            <!-- Box3 -->
+            <div class="product-box">
+                <!-- Stripe need images that are online on local server it will not show in stripe checkout page we have to upload online -->
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11359600/2020/6/22/97e8ab74-25ff-4daf-bffb-b0a1ec708c191592819068194ShirtsUSPoloAssnMenShirtsUSPoloAssnMenShirtsUSPoloAssnMenShi1.jpg" alt="Shoes" class="product-img" />
+                <h2 class="product-title">Mast & Harbour</h2>
+                <span class="price">Rs. 824</span>
+                <i class="bx bxs-shopping-bags add-cart"></i>
+            </div>
+            <!-- Box4 -->
+            <div class="product-box">
+                <!-- Stripe need images that are online on local server it will not show in stripe checkout page we have to upload online -->
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11359590/2020/2/26/68da9e40-e8b1-4710-8282-802c2c6550c11582709189210-US-Polo-Assn-Men-Tshirts-9481582709187568-1.jpg" alt="JJ" class="product-img" />
+                <h2 class="product-title">PUMA</h2>
+                <span class="price">Rs. 999 </span>
+                <i class="bx bxs-shopping-bags add-cart"></i>
+            </div>
+            <!-- Box5 -->
+            <div class="product-box">
+                <!-- Stripe need images that are online on local server it will not show in stripe checkout page we have to upload online -->
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1924785/2018/5/18/be8485c7-0944-4f38-8f5f-78b6e325fd201526634385328-US-Polo-Assn-Men-Khaki-Slim-Fit-Solid-Chinos-7181526634383854-1.jpg " alt="Levis" class="product-img" />
+                <h2 class="product-title">WROGN</h2>
+                <span class="price">Rs. 1049 </span>
+                <i class="bx bxs-shopping-bags add-cart"></i>
+            </div>
+            <!-- Box6 -->
+            <div class="product-box">
+                <!-- Stripe need images that are online on local server it will not show in stripe checkout page we have to upload online -->
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14406186/2021/7/13/89fe5eaf-6a09-4695-ab3a-651478bc0e6f1626156204788-US-Polo-Assn-Men-Casual-Shoes-1211626156204359-1.jpg" alt="Shirts" class="product-img" />
+                <h2 class="product-title">HRX by Hrithik Roshan</h2>
+                <span class="price">Rs. 2159</span>
+                <i class="bx bxs-shopping-bags add-cart"></i>
+            </div>
+            <!-- Box7 -->
+            <div class="product-box">
+                <!-- Stripe need images that are online on local server it will not show in stripe checkout page we have to upload online -->
+                <img src="https://bit.ly/3wXtNAx" alt="Shirts" class="product-img" />
+                <h2 class="product-title">Nayo</h2>
+                <span class="price">Rs. 2500</span>
+                <i class="bx bxs-shopping-bags add-cart"></i>
+            </div>
+            <!-- Box8 -->
+            <div class="product-box">
+                <!-- Stripe need images that are online on local server it will not show in stripe checkout page we have to upload online -->
+                <img src="https://bit.ly/3uMmnxi" alt="Shirts" class="product-img" />
+                <h2 class="product-title">Sngria</h2>
+                <span class="price">Rs. 799</span>
+                <i class="bx bxs-shopping-bags add-cart"></i>
+            </div>
+        </div>
+    </section>
+  </script>
+    
+    
+
+    <script src="script.js"></script>
+      <script src="cart.js"></script>
+  </body>
+</html>
